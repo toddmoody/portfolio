@@ -1,0 +1,139 @@
+/* Base styles ---------------------- */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	color: #878787;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 19px;
+	font-weight: 300;
+	line-height: 1.5em;
+	letter-spacing: 0.25px;
+	color: #2F394E;
+}
+
+/* About Container Styles ---------------------- */
+
+.bio {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.about {
+	max-width: 90%;
+	text-align: center;
+}
+
+.about p {
+	line-height: 1.9em;	
+}
+
+.about a {
+	color: #4A565C;
+	padding-bottom: 0.2em;
+	border-bottom: 1px solid orange;
+}
+
+.me {
+	height: 130px;
+	border-radius: 100%;
+	margin: 40px 0 15px 0;
+}
+
+.social-img {
+	height: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-bottom: none !important;
+}
+
+hr {
+	height: 1px;
+	background-color: rgba(0,0,0,0.08);
+	border: none;
+	width: 950px;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #4A565C;
+	font-size: 32px; 
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	color: #4A565C;
+	font-size: 20px;
+	margin-top: 0;
+}
+
+.f-stop {
+	color: orange;
+}
+
+.typical {
+	font-style: italic;
+}
+
+/* Grid Layoud Styles (in addition to Bootstrap inherited) ---------------------- */
+
+.img-grid {
+	max-width: 95%;
+	margin: 0 auto;
+}
+
+.img-grid img {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+/* Footer Styles ---------------------- */
+
+.main-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 4px solid #ffa949;
+}
+
+
+/* Pseudo-classes ---------------------- */
+
+.about a:hover {
+	color: orange;
+	border-bottom: none;
+	text-decoration: none;
+}
+
+/* Contact form modal-classes ---------------------- */
+.resume-callout {
+	text-decoration-color: none;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+	border: 1px solid orange;
+}
+
+.form-group label .custom-checkbox {
+	color: orange;
+}
+
+.btn-orange {
+	background-color: orange;
+	border: 1px solid orange;
+}
+
+.btn-orange:hover {
+	background-color: #e19317;
+	border: 1px solid #e19317;
+
+}
+
+.nav-link:focus, .nav-link:hover {
+    text-decoration: none !important;
+}
+

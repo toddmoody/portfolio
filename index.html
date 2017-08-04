@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Developer Portfolio - Todd Moody</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+</head>
+<body data-spy="scroll" data-target=".navbar">
+	
+	<!-- bootstrap nav bar that is customised -->
+	<nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top b-nav">
+	<div class="container">
+	  <button class="navbar-toggler navbar-toggler-right btn-sm" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <a class="navbar-brand">Todd Moody</a>
+	  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+	    <ul class="navbar-nav ml-auto">
+	      <li class="nav-item">
+	        <a class="nav-link" href="#contact" data-toggle="modal" data-target="#contact_modal">Contact</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="" target="blank">Resume</a>
+	      </li>
+	    </ul>
+	   </div>
+	  </div>
+	</nav>
+	<div class="container-fluid">
+		
+		<!-- This is the intro / about container -->
+		<div id="bio">
+			<div class="bio">	
+				<img src="images/me.jpg" class="me"/>	
+				<!-- <h1>Todd Moody</h1> -->
+				<h2>Front-End Application Developer</h2>
+				<a href="https://toddmoody.slack.com" target="blank"><img class="social-img" src="images/slack.png"></a><a href="https://github.com/toddmoody" target="blank"><img class="social-img" src="images/github.png"></a><a href="skype:todd-moody?call" target="blank"><img class="social-img" src="images/skype.png"></a>
+			</div>
+			<div class="about">
+				<hr/>
+				<p>My journey into development is a lot like everyone's discovery of their passion - <span class="typical">anything but typical!</span></p>  
+				<p>My passion for computing started back in the early mid-80's with our first DOS driven computer, featuring dual 5 & 1/4" floppy disc drives and 4-color CGA monitor. At the time it was amazing, I was in ore of this machine.</p>
+				<p>For more than a decade, I've been working on digital projects across <a href="">agency and client side roles</a> incl. Producer, Senior Account Management, and Digital Strategist.  Until, some time ago I realised that with code it could be so much more than that.  I'm proud to say that I'm now a Freelance Front-End Application Developer.</p>  
+				<p>For more informaton please check out my <a href="" target="blank">resume</a>, or <a href="" data-toggle="modal" data-target="#contact_modal" >contact me</a>.</p>
+			</div>
+		</div>
+		<!-- This is where the grid begins for the images -->
+		<div id="projects" class="row img-grid justify-content-center">
+		  <div class="col-xl-4 col-lg-6 col-md-12">
+			  <img class="img-fluid rounded" src="images/Sublime-thumbv2.jpg">
+		  </div>
+		  <div class="col-xl-4 col-lg-6 col-md-12">
+			  <img class="img-fluid rounded" src="images/Sublime-thumbv2.jpg">
+		  </div>
+	  	  <div class="col-xl-4 col-lg-6 col-md-12">
+			  <img class="img-fluid rounded" src="images/Sublime-thumbv2.jpg">
+		  </div>
+		  <div class="col-xl-4 col-lg-6 col-md-12">
+			  <img class="img-fluid rounded" src="images/Sublime-thumbv2.jpg">
+		  </div>
+	  	  <div class="col-xl-4 col-lg-6 col-md-12">
+			  <img class="img-fluid rounded" src="images/Sublime-thumbv2.jpg">
+		  </div>
+	  	  <div class="col-xl-4 col-lg-6 col-md-12">
+			  <img class="img-fluid rounded" src="images/Sublime-thumbv2.jpg">
+		  </div>
+	  	  <div class="col-xl-4 col-lg-6 col-md-12">
+			  <img class="img-fluid rounded" src="images/Sublime-thumbv2.jpg">
+		  </div>
+	      <div class="col-xl-4 col-lg-6 col-md-12">
+			  <img class="img-fluid rounded" src="images/Sublime-thumbv2.jpg">
+		  </div>
+	  	  <div class="col-xl-4 col-lg-6 col-md-12">
+			  <img class="img-fluid rounded" src="images/Sublime-thumbv2.jpg">
+		  </div>
+		</div> 
+
+		<!-- contact form modal -->
+	    <div id="contact_modal" class="modal fade">
+	      <div class="modal-dialog" role="document">
+	        <div class="modal-content">
+	          <div class="modal-header">
+	            <h5 class="modal-title">Todd Moody - Contact</h5>
+	            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	              <span aria-hidden="true">&times;</span>
+	            </button>
+	          </div>
+	          <div class="modal-body">
+	          <!-- Registration form  -->
+	          <div class="alert alert-warning alert-dismissible fade show" role="alert">
+	            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+	              <span aria-hidden="true">&times;</span>
+	            </button>
+	             Feel free to call me directly on <strong>021570010</strong>, or drop me a line...
+	          </div>
+	         <form>
+	            <h5 class="mb-3">Your Details:</h5>
+	            <div class="form-group">
+	              <label class="sr-only" for="name">Name:</label>
+	              <input type="text" class="form-control" id="name" placeholder="Name">
+	            </div>
+	            <div class="form-group">
+	              <label for="mail" class="form-control-label sr-only">Email:</label>
+	              <input type="email" class="form-control" id="mail" placeholder="Email">
+	            </div>
+	            <div class="form-group">
+	              <label for="mail" class="form-control-label sr-only">Phone:</label>
+	              <input type="phone" class="form-control" id="phone" placeholder="Phone">
+	            </div>
+	             <div class="form-group">
+	              <h5 class="mt-4 mb-3">How can I get back to you?</h5>
+	              <select class="c-select form-control" id="role" name="user_role">
+	                <option value="email me">Email me</option>
+	                <option value="phone me">Phone me</option>
+	               </select>
+	            </div>
+	            <h5 class="mt-4 mb-3">What key skills do you require?</h5>
+	            <div class="form-group">
+	              <div class="form-check">
+	                <label class="custom-control custom-checkbox">
+	                  <input type="checkbox" class="custom-control-input text-warning">
+	                  <span class="custom-control-indicator"></span>
+	                  <span class="custom-control-description">Front-End Developemnt (various)</span>
+	                </label>
+	              </div>
+	              <div class="form-check">
+	                <label class="custom-control custom-checkbox">
+	                  <input type="checkbox" class="custom-control-input">
+	                  <span class="custom-control-indicator"></span>
+	                  <span class="custom-control-description">Styling an existing web app</span>
+	                </label>
+	              </div>
+	              <div class="form-check">
+	                <label class="custom-control custom-checkbox">
+	                  <input type="checkbox" class="custom-control-input">
+	                  <span class="custom-control-indicator"></span>
+	                  <span class="custom-control-description">Adding interactivity to an existing web app</span>
+	                </label>
+	              </div>
+	              <div class="form-check">
+	                <label class="custom-control custom-checkbox">
+	                  <input type="checkbox" class="custom-control-input">
+	                  <span class="custom-control-indicator"></span>
+	                  <span class="custom-control-description">Front-end framework expertise</span>
+	                </label>
+	              </div>
+	            </div>
+	              <button type="submit" class="btn btn-primary btn-lg btn-orange">Submit</button>
+	             </form> 
+
+	</div>
+		<footer class="main-footer"></footer>
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>
